@@ -250,6 +250,15 @@
     <origin xyz="-0.02 0 0"/>
   </joint>
 
+  <link name="eye"></link>
+
+  <joint name="toeye" type="fixed">
+    <parent link="lense"/>
+    <child link="eye"/>
+    <origin xyz="0 0 0" rpy= "${pi/2} ${pi} ${pi/2}"/>
+    
+  </joint>
+
   <link name="base_footprint"></link>
 
   <joint name="under_base_footprint" type="fixed">
