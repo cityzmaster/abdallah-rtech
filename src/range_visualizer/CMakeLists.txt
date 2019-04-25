@@ -138,6 +138,11 @@ add_executable(new_sensor_msg_node src/new_sensor_msg_node.cpp)
 target_link_libraries(new_sensor_msg_node ${catkin_LIBRARIES})
 add_dependencies(new_sensor_msg_node range_visualizer_generate_messages_cpp)
 
+add_executable(new_range src/new_range.cpp)
+target_link_libraries(new_range ${catkin_LIBRARIES})
+add_dependencies(new_range range_visualizer_generate_messages_cpp)
+
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
