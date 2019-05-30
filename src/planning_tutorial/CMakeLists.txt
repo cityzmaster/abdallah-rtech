@@ -135,6 +135,9 @@ include_directories(
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_executable(planning_tutorial src/planning_tutorial.cpp)
 target_link_libraries(planning_tutorial ${catkin_LIBRARIES})
+
+add_executable(move_group_interface src/move_group_interface.cpp)
+target_link_libraries(move_group_interface ${catkin_LIBRARIES})
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide

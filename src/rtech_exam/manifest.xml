@@ -1,0 +1,16 @@
+<package>
+  <description brief="rtech_exam">
+
+     rtech_exam
+
+  </description>
+  <author>abd</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rtech_exam</url>
+  <depend package="roscpp"/>
+  <depend package="visualization_msgs"/>
+
+</package>
+
+
